@@ -42,3 +42,4 @@ class FiltroPaises {
     return [];
   }
 }
+//agregado array de objetos filtros y  modificacion en inicializar para procesar esos filtros sugerencia de cambio changeSelect 
