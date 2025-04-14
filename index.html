@@ -9,7 +9,8 @@
       { name: 'Sudamerica', fn: e => e.subregion === 'South America' },
       { name: 'SuperPoblados', fn: e => e.population > '100000000' },
       { name: 'Insulares', fn: e => e.borders == [] },
-      { name: 'Guarani', fn: e => e.languages === "Guaraní" },
+      { name: 'Un Pais', fn: e => e.name.common == 'Paraguay' },
+      { name: 'Guaraní', fn: e => e.languages?.hasOwnProperty('grn')}
     ];
 
       async function  inicializar() {
@@ -54,3 +55,4 @@
     </div>
   </body>
 </html>
+
